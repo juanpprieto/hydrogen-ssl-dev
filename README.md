@@ -49,7 +49,7 @@ npm run dev
 The proxied HTTPS/SSL dev server will be available on `https://localhost:3010` and
 the standard HTTP at `http://localhost:3000`
 
-You can adjust the ports at [here](https://github.com/juanpprieto/hydrogen-ssl-dev/blob/a1f848b857e3eb63199d366927420396331dfa25/package.json#L10)  
+You can adjust the ports [here](https://github.com/juanpprieto/hydrogen-ssl-dev/blob/a1f848b857e3eb63199d366927420396331dfa25/package.json#L10)  
 
 ## What's included
 
