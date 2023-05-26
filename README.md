@@ -1,5 +1,7 @@
 # Hydrogen template: Hello World + HTTPS/SSL dev
 
+<img width="894" alt="ssl" src="https://github.com/juanpprieto/hydrogen-ssl-dev/assets/12080141/2794f9f8-e7eb-450c-9b3b-c78534fbb246">
+
 Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dovetail with [Remix](https://remix.run/), Shopify’s full stack web framework. This template contains a **minimal setup** of components, queries and tooling to get started with Hydrogen.
 
 [Check out Hydrogen docs](https://shopify.dev/custom-storefronts/hydrogen)
