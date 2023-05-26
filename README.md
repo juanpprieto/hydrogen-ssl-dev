@@ -5,6 +5,50 @@ Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dov
 [Check out Hydrogen docs](https://shopify.dev/custom-storefronts/hydrogen)
 [Get familiar with Remix](https://remix.run/docs/en/v1)
 
+## SSL dev instructions
+
+Instructions for Mac:
+
+One time install via your terminal
+
+```bash
+brew install mkcert
+```
+
+```bash
+mkcert -install
+```
+
+```bash
+npm install -g local-ssl-proxy
+```
+
+From the root folder of the hydrogen project run:
+
+```bash
+mkcert localhost
+```
+
+Should output:
+
+```bas
+Created a new certificate valid for the following names 📜
+ - "localhost"
+
+The certificate is at "./localhost.pem" and the key at "./localhost-key.pem" ✅
+
+It will expire on XX Moth YYYY 🗓
+```
+
+Finally, start the development server as usual with:
+
+```bash
+npm run dev
+```
+
+The proxied HTTPS/SSL dev server will be available on `https://localhost:3010` and
+the standard HTTP at `http://localhost:3000`
+
 ## What's included
 
 - Remix
