@@ -5,7 +5,9 @@
   "version": "0.0.0",
   "scripts": {
     "build": "shopify hydrogen build",
-    "dev": "shopify hydrogen dev",
+    "dev": "npm-run-all -p dev:*",
+    "dev:hydrogen": "shopify hydrogen dev",
+    "dev:ssl": "local-ssl-proxy --key localhost-key.pem --cert localhost.pem --source 3010 --target 3000",
     "preview": "npm run build && shopify hydrogen preview",
     "lint": "eslint --no-error-on-unmatched-pattern --ext .js,.ts,.jsx,.tsx .",
     "typecheck": "tsc --noEmit"
